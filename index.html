@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pan Card Application form</title>
+    <link rel="styleSheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div style="width: 80vw; margin: auto">
+      <div class="subContainer">
+        <h3 class="subHead">Tax Information Network</h3>
+        <h5 class="subHead1">of Income Tax Department</h5>
+      </div>
+      <div class="butContainer">
+        <button>Home</button>
+        <button>Reprint Of PAN Card</button>
+        <button>Download e-PAN/ e-PAN XML</button>
+        <button>Know Status Of PAN Application</button>
+      </div>
+      <div>
+        <h2>Online PAN application</h2>
+        <p>
+          As per ITD guidelines,'Request for New PAN Card or/and Changes or
+          Correction in PAN Data' application is presently to be used
+          <span> only for update/correction in PAN database.</span> For
+          procedure to link Aadhaar with PAN, please click <a href="#">here</a>
+        </p>
+        <p>
+          As per provisions of Section 272B of the Income Tax Act., 1961, a
+          penalty of ₹ 10,000 can be levied on possession of more than one PAN.
+        </p>
+      </div>
+      <hr />
+      <div style="display: flex">
+        <div style="background-color: #037991; width: 170px">
+          <span class="material-symbols-outlined"> person_add </span>
+          <a href="" style="color: whitesmoke; text-decoration: none"
+            >Apply Online</a
+          >
+        </div>
+        <div class="cntcon">
+          <span class="material-symbols-outlined" style="color: black">
+            resume
+          </span>
+          <a href="" style="text-decoration: none; color: black"
+            >Continue with Application</a
+          >
+        </div>
+      </div>
+      <div style="opacity: 0.5; background-color: bisque; padding: 5px">
+        <h6>Application Type</h6>
+        <select>
+          <option>----Please Select----</option>
+          <option>New PAN - Indian Citizen (Form 49A)</option>
+          <option>New PAN - Foreign Citizen (Form 49A)</option>
+          <option>Changes</option>
+        </select>
+        <h6>Category</h6>
+        <select style="width: 260px">
+          <option>----Please Select----</option>
+          <option>INDIVIDUAL</option>
+          <option>ASSOCIATION OF PERSONS</option>
+          <option>BODY OF INDIVIDUALS</option>
+        </select>
+      </div>
+      <div style="padding: 5px">
+        <h3 style="display: inline; color: blue">Applicant information</h3>
+        <span class="material-symbols-outlined" style="color: blue">
+          info
+        </span>
+      </div>
+      <div style="opacity: 0.7; background-color: bisque; padding: 5px">
+        <h6>Title</h6>
+        <select>
+          <option>------select------</option>
+          <option>M/s</option>
+        </select>
+        <h6>Last Name / Surname</h6>
+        <input type="text" />
+        <h6>First Name</h6>
+        <input type="text" />
+        <h6>Middle Name</h6>
+        <input type="text" />
+        <h6>Date of Birth/Incorporation/Formation(DD/MM/YYYY)</h6>
+        <input type="date" />
+        <h6>Email ID</h6>
+        <input type="email" />
+        <h6>Mobile Number</h6>
+        <input type="number" />
+        <h6>Whether Citizen of India</h6>
+        <form>
+          <input type="radio" id="rad1" name="opt" /><label for="rad1"
+            >Yes</label
+          >
+          <input type="radio" id="rad2" name="opt" /><label for="rad2">No</label
+          ><br />
+        </form>
+        <h6>PAN Number</h6>
+        <input type="number" /><br />
+        <input type="checkbox" style="margin-top: 15px" /><br />
+        <h6 style="margin-top: 0px">
+          By submitting data to us and/or using our Protean e-Gov TIN web site
+        </h6>
+        <h6>
+          <a href="" style="color: blue"
+            >https://www.onlineservices.Protean.com/paam/endUserRegisterContact.html</a
+          >
+          you give your consent that all personal data/information that you
+          submit to avail tax related services from Protean eGov Technologies
+          Limited may be received, stored, processed, transmitted and or made
+          available for view /use as mandated by law or otherwise, shall be
+          dealt with by us in the manner and for the purposes specified / as
+          described in the privacy policy or as mandated by law. I have also
+          read, understood and expressly agree to be bound by the Privacy Policy
+          <a href="" style="color: blue"
+            >https://www.protean-tinpan.com/privacy-policy.html</a
+          >, Disclaimer and web-site usage guidelines as published by Protean on
+          its website from time to time.
+        </h6>
+        <label>Select Language</label>
+        <input type="text" /><br />
+        <button style="background-color: rgb(212, 114, 17); color: whitesmoke">
+          Play audio
+        </button>
+        <h6>Validate reCAPTCHA</h6>
+        <div
+          style="
+            display: flex;
+            border: 1px solid;
+            background-color: white;
+            width: 250px;
+          "
+        >
+          <input type="checkbox" />
+          <h5>I'm not a robot</h5>
+        </div>
+      </div>
+      <button
+        style="
+          color: white;
+          background-color: #007790;
+          margin-top: 30px;
+          padding: 5px;
+          width: 70px;
+        "
+      >
+        Reset
+      </button>
+      <button
+        style="
+          color: white;
+          background-color: #007790;
+          padding: 5px;
+          width: 70px;
+        "
+      >
+        Submit
+      </button>
+      <footer
+        style="
+          background-color: rgb(138, 30, 30);
+          color: white;
+          height: 50px;
+          padding: 10px;
+        "
+      >
+        <p>
+          Copyright 2024 | Powered by Protean eGov Technologies Limited –
+          Building nationally critical and population scale Digital Public
+          Infrastructure for the nation.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

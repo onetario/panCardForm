@@ -1,0 +1,32 @@
+.subContainer {
+  background-color: rgb(242, 163, 15);
+}
+.subHead1 {
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+.butContainer {
+  background-color: bisque;
+  padding: 10px;
+}
+.butContainer button:hover {
+  background-color: beige;
+}
+span {
+  text-decoration: underline;
+}
+hr {
+  color: blue;
+}
+.material-symbols-outlined {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.cntcon:hover {
+  background-color: aqua;
+}
+.cntcon {
+  width: 250px;
+  background-color: rgb(223, 223, 206);
+  border: 1px solid transparent;
+}
